@@ -55,6 +55,10 @@ header .navitem#selected {
   padding-right: 8px;
 }
 
+.center {
+  text-align: center;
+}
+
 .postcard img {
   width: 292px;
   height: 292px;
