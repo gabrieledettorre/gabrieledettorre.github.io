@@ -65,6 +65,12 @@ header .navitem#selected {
   margin-bottom: 16px;
 }
 
+.mainsection {
+  position: relative;
+  top: 30%;
+  transform: translateY(-50%);
+}
+
 @media screen and (max-width: 320px)  {
   .postcard img {
     width: 128px;
