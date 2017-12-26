@@ -1,0 +1,16 @@
+{% include head.html %}
+{% include toolbar.html %}
+<body>
+  <main class="content postshowcase">
+    {% for post in site.animations %}
+    <a href="{{post.url}}">
+      <div class="postcard">
+        <img src="{{post.cover}}">
+        <div class="title">
+            {{ post.title }}
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </main>
+</body>
