@@ -55,10 +55,20 @@ header .navitem#selected {
   padding-right: 8px;
 }
 
+.center {
+  text-align: center;
+}
+
 .postcard img {
   width: 292px;
   height: 292px;
   margin-bottom: 16px;
+}
+
+.mainsection {
+  position: relative;
+  top: 30%;
+  transform: translateY(-50%);
 }
 
 @media screen and (max-width: 320px)  {
