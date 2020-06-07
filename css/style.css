@@ -20,7 +20,7 @@ body{
 
 /* Toolbar */
 .toolbar {
-  background: #282828;
+  background: #282828;/*313454*/
   display: block;
   color: #fff;
   border-bottom: #e84545 3px solid;
@@ -130,7 +130,7 @@ footer{
   margin-top: 32px;
   padding: 16px;
   color:#ffffff;
-  background-color:#282828;
+  background-color:#282828;/*313454*/
 }
 
 @media screen and (max-width: 900px) {
