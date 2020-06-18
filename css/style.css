@@ -132,6 +132,10 @@ p{
   font-size: 30px;
 }
 
+#socials .sbox a:hover {
+  color: #e84545; 
+}
+
 /* Footer */
 footer{
   margin-top: 32px;
