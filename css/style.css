@@ -119,10 +119,17 @@ p{
 #socials .sbox{
   padding: 0px 12px;
   display: inline;
+  color: red;
 }
 
 #socials .sbox img{
   width: 32px;
+}
+
+#socials .sbox a {
+  color: #2d3033;
+  text-decoration: none;
+  font-size: 30px;
 }
 
 /* Footer */
