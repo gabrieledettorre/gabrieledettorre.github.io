@@ -125,6 +125,17 @@ p{
   width: 32px;
 }
 
+#socials .sbox a {
+  color: #2d3033;
+  text-decoration: none;
+  font-size: 30px;
+  transition: color .2s ease-in-out;
+}
+
+#socials .sbox a:hover {
+  color: #e84545; 
+}
+
 /* Footer */
 footer{
   margin-top: 32px;
