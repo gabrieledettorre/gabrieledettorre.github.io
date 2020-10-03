@@ -26,6 +26,17 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Jost", sans-serif;
 }
 
+.wrapper {
+  float: left;
+  clear: left;
+  display: table;
+  table-layout: fixed; }
+
+img.img-responsive {
+  display: table-cell;
+  max-width: 100%;
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
