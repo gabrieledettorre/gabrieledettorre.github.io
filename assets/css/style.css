@@ -792,9 +792,6 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
-.team .container-team {
-  height: 100vh;
-}
 
 .team .member {
   position: relative;
@@ -1116,7 +1113,7 @@ section {
 
 #extlink .extlink-top .extlink-links ul a:hover {
   text-decoration: none;
-  color: #47b2e4;
+  color: #1acc8d;
 }
 .bx {
   font-size: 30px;
@@ -1138,7 +1135,7 @@ section {
 }
 
 #extlink .extlink-top .social-links a:hover {
-  background: #209dd8;
+  background: #1acc8d;
   color: #fff;
   text-decoration: none;
 }
