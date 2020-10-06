@@ -414,7 +414,7 @@ h1, h2, h3, h4, h5, h6 {
   animation-delay: -2s;
 }
 
-.wave2 use {
+/*.wave2 use {
   -webkit-animation: move-forever2 8s linear infinite;
   animation: move-forever2 8s linear infinite;
   -webkit-animation-delay: -2s;
@@ -481,7 +481,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translate(85px, 0%);
   }
 }
-
+*/
 
 /*--------------------------------------------------------------
 # Features
