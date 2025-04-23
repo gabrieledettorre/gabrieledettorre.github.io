@@ -110,8 +110,8 @@
               <div class="member-info  my-auto">
                 <h4>Gabriele D'Ettorre</h4>
                 <span></span>
-                <p>My name is Gabriele, I'm 24 years old and after my regular studies I focused my interests in graphic design and other stuff.</p>
-                <p>I’m a photography lover, aspiring designer and a full-time imaginator.</p>
+                <p><span id="frase-eta"></span></p>
+                <p><i>I’m a photography lover, aspiring designer and a full-time imaginator.</i></p>
                 <p><a href="#contact">Check my socials</a></p>               
               </div>
 
@@ -444,6 +444,27 @@
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
+  
+  <p id="frase-eta"></p>
+
+<script>
+  const annoNascita = 1998;
+  const oggi = new Date();
+  const anno = oggi.getFullYear();
+  const mese = oggi.getMonth() + 1;
+  const giorno = oggi.getDate();
+
+  const giornoNascita = 23;
+  const meseNascita = 4;
+
+  let eta = anno - annoNascita;
+  if (mese < meseNascita || (mese === meseNascita && giorno < giornoNascita)) {
+    eta--;
+  }
+
+  const frase = `My name is Gabriele, I'm ${eta} years old and after my regular studies I focused my interests in graphic design and other stuff.`;
+  document.getElementById("frase-eta").textContent = frase;
+</script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
