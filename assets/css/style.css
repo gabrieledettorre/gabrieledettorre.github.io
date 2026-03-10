@@ -647,6 +647,12 @@ section {
   color: #3498db;
 }
 
+.icon-box ul.description {
+  padding-left: 1.2rem; /* Regola questo valore: meno pixel = più a sinistra */
+  margin-left: 0;
+  list-style-position: outside; /* Mantiene i pallini fuori dal blocco di testo per un look pulito */
+}
+
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
